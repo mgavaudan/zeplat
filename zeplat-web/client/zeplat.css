@@ -1,0 +1,67 @@
+body {
+	margin: 0 auto;
+    background-image: url("cloudy-stars.jpg");
+}
+
+h1{
+	font-size: 2em;
+	color: white;
+	margin-top: 0.5em;
+	margin-left: 38%;
+	font-family: Text;
+}
+
+#logo{
+	margin-top: 2em;
+	margin-left: 38.5%;
+	font-size: 5em;
+	color: white;
+	font-family: Logo;
+	
+}
+
+.enter_link input{
+
+    width: 80%;
+    height: 2em;
+    margin-left: 10%;
+    margin-top: 1em;
+    font-family: Text;
+}
+
+.enter_link{
+
+    width: 20%;
+    height: 5em;
+    margin-left: 39%;
+    border: 1px solid white;
+    margin-top: 3em;
+    display: inline-block;
+    background: rgba(0,0,0, 0.4);
+    font-family: Text;
+}
+
+.signlog{
+	font-size: 1.5em;
+    line-height: 3.5em;
+    color: white;
+    text-decoration: none;
+    text-align: center;
+}
+
+.enter_link:hover{
+  background: rgba(0,0,0, 0.8);
+
+}
+
+@font-face{
+	font-family: Text;
+		src: url("/OpenSans-Regular.ttf");
+}
+@font-face{
+	font-family: Logo;
+		src: url("/MANIFESTO.ttf");
+}
+
+
+
