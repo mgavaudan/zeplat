@@ -1,0 +1,66 @@
+<head>
+	<title>Zeplat</title>
+</head>
+
+<body>
+</body>
+
+
+<template name="home">
+
+	<div id="home">
+
+	    <div id="logo">ZEPLAT</div>
+
+		<h1>Procrastinate Efficiently.</h1>
+
+		<div id="button1" class="enter_link">
+			{{> signup}}
+		</div>
+
+		<div id="button2" class="enter_link">
+			{{> login}}
+		</div>
+
+	</div>
+
+</template>
+
+<template name="gotomain"></template>
+
+<template name="login">
+	{{#if showForm}}
+		<form id="login_form" action="action">
+	        <input class="finput" type="email" id="email_login" placeholder="Email"/>
+	        <input class="finput" type="password" id="password_login" placeholder="Password"/>
+	        <input class="fbutton" type="submit" value="Sign in" />
+	   </form>
+	{{else}}
+        <div class="signlog">
+        	Log In
+        </div>
+    {{/if}}
+</template>
+
+<template name="signup">
+	{{#if showForm}}
+		<form id="register_form" action="action">
+	       <input class="finput" type="email" id="email_signup" placeholder="Email"/>
+	       <input class="finput" type="password" id="password_signup" placeholder="Password"/>
+	       <input class="fbutton" type="submit" value="Create an Account" />
+	   </form>
+	{{else}}
+		<div class="signlog">
+        	Sign Up
+        </div>
+    {{/if}}
+</template>
+
+
+
+
+
+
+
+
+

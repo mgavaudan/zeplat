@@ -12,3 +12,4 @@ accounts-base
 twbs:bootstrap
 jquery
 iron:router
+accounts-ui

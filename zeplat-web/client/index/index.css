@@ -1,14 +1,18 @@
-body {
-	margin: 0 auto;
-    background-image: url("cloudy-stars.jpg");
-}
-
 h1{
 	font-size: 2em;
 	color: white;
 	margin-top: 0.5em;
 	margin-left: 38%;
 	font-family: Text;
+}
+
+#home{
+    position: absolute;
+    top:0px;
+    bottom: 0px;
+    left: 0px;
+    right: 0px;
+    background-image: url("cloudy-stars.jpg");
 }
 
 #logo{
